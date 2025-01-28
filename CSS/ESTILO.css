@@ -1,0 +1,46 @@
+body{
+   background-color: rgb(15, 113, 224); 
+}
+img{
+   width: 250px;
+   height: 500px;
+}
+#img1{
+   width: 500px;
+   height: 500px;
+   border-radius: 81px;
+}
+#botoncito{
+   color:brown;
+   background-color: aquamarine;
+   font-family: arial;
+   font-size: larger;
+   
+}
+#botoncito:hover{
+   background-color: blue;
+}
+#botoncito:active{
+   background-color: bisque;
+}
+
+nav{
+   background-color: black;
+   color: aliceblue;
+   text-align: center;
+}
+li{
+   list-style: none;
+}
+nav ul li{
+   display: inline;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size:25px;
+}
+a{
+   color: white;
+   text-decoration: none; /*quita el subrayado*/
+}
+nav ul li a{
+   padding: 20px;
+}
